@@ -54,6 +54,8 @@ jollux-immigration-data pwd input.xlsx --output pwd.jsonl
 jollux-immigration-data perm input.csv --output perm.csv --format csv
 ```
 
+For small, reproducible examples generated from synthetic fixtures, see [the sample outputs guide](examples/README.md).
+
 The package does not download source files or make network requests.
 
 ## Official data sources
