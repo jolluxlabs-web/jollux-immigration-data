@@ -25,6 +25,17 @@ python -m pip install -e .
 
 Python 3.10 or newer is required.
 
+To run the introductory notebooks, install the optional notebook dependencies:
+
+```bash
+python -m pip install -e '.[notebooks]'
+jupyter notebook
+```
+
+The notebooks in `notebooks/` use only small synthetic CSV files created at
+runtime. They do not download data or require credentials, databases, or
+production files.
+
 ## Development
 
 Install the test dependencies and run the test suite:
@@ -60,6 +71,8 @@ The package does not download source files or make network requests.
 
 - [Supported PWD and PERM fields](docs/supported-fields.md)
 - [Quarterly DOL disclosure-data update checklist](docs/quarterly-update-checklist.md)
+- [PWD introductory notebook](notebooks/pwd-introduction.ipynb)
+- [PERM introductory notebook](notebooks/perm-introduction.ipynb)
 
 ## Official data sources
 
