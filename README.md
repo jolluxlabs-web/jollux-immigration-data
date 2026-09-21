@@ -56,6 +56,10 @@ jollux-immigration-data perm input.csv --output perm.csv --format csv
 
 The package does not download source files or make network requests.
 
+## Documentation
+
+- [Quarterly DOL disclosure-data update checklist](docs/quarterly-update-checklist.md)
+
 ## Official data sources
 
 The U.S. Department of Labor's Office of Foreign Labor Certification (OFLC) publishes disclosure files and record layouts on its official [Performance Data](https://www.dol.gov/agencies/eta/foreign-labor/performance) page.
