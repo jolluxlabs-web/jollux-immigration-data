@@ -4,10 +4,13 @@ __pycache__/
 .venv/
 dist/
 build/
+temp_auto_push.bat
 *.egg-info/
-.env
-.env.*
 !.env.example
 *.xlsx
 *.xls
 .DS_Store
+.gitignore
+branch_structure.json
+config.bat
+node_modules
